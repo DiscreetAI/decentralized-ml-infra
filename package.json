@@ -1,0 +1,42 @@
+{
+  "name": "dagora-chain",
+  "version": "1.0.0",
+  "description": "A small, simple Tendermint-based blockchain for quick prototyping",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 --exit",
+    "dev": "node app.js",
+    "devMode": "node scripts/devMode.js"
+  },
+  "keywords": [
+    "blockchain",
+    "tendermint",
+    "lotionjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "deterministic-json": "^1.0.5",
+    "express": "^4.16.4",
+    "lotion": "^0.2.3",
+    "node-flags": "^0.1.9",
+    "sjcl": "1.0.8",
+    "varstruct": "^6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-semistandard": "^13.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}

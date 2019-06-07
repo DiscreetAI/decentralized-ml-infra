@@ -1,0 +1,23 @@
+{
+  "app_hash": "",
+  "chain_id": "DAgora",
+  "genesis_time": "0001-01-01T00:00:00Z",
+  "validators":[
+    {
+      "name": "validator_A",
+      "power": "10",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "9aJJ1xXA2Bm+3aS/PCMOOTJ9Q2H6iESREYN5K6RVrbo="
+      }
+    },
+    {
+      "name": "validator_B",
+      "power": "10",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "oBVC8zkzCB7KDEwC1opoR/YurbWbLUegOF6dp8S9TV8="
+      }
+    }
+  ]
+}
