@@ -18,11 +18,11 @@
   "dependencies": {
     "assert": "^1.4.1",
     "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "deterministic-json": "^1.0.5",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "lotion": "^0.2.3",
     "node-flags": "^0.1.9",
     "sjcl": "1.0.8",
