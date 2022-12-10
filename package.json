@@ -22,7 +22,7 @@
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "deterministic-json": "^1.0.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "lotion": "^0.2.3",
     "node-flags": "^0.1.9",
     "sjcl": "1.0.8",
